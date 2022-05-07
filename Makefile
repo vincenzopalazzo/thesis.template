@@ -10,4 +10,4 @@ bib:
 	pdflatex -interaction=nonstopmode "$(FILE).tex"
 
 clean:
-	rm *.log *.pdf *.out *.lof *.lol *.toc
+	rm *.log *.pdf *.out *.lof *.lol *.toc *.synctex.gz
